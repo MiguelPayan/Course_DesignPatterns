@@ -168,7 +168,7 @@ class BerryHandler extends BaseDinoHandler{
 }
 
 class CarneHandler extends BaseDinoHandler{
-    handle(request: string): void {
+    override handle(request: string): void {
         if(request == "carne"){
             console.log(`REX come ${request}`);
             return;
