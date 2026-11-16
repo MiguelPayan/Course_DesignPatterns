@@ -1,0 +1,5 @@
+{
+  "imports": {
+    "@deno-library/logger": "jsr:@deno-library/logger@^1.2.0"
+  }
+}
